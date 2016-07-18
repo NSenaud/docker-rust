@@ -11,7 +11,7 @@ RUN apt-get update && \
     curl \
     git \
     cmake \
-    libhugs-opengl-bundled \
+    mesa-common-dev \
     libssl-dev && \
   curl -sO https://static.rust-lang.org/dist/rust-$RUST_VERSION-x86_64-unknown-linux-gnu.tar.gz && \
   tar -xzf rust-$RUST_VERSION-x86_64-unknown-linux-gnu.tar.gz && \
